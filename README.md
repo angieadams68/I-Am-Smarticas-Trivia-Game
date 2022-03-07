@@ -24,11 +24,33 @@ I really enjoy watching movies and TV shows, so I put together a game for other 
 
 ***How To Get Started***
 
+
+
+
 This part is simple!
+
+
+
 Read the questions given to you.
+
+
+
 Answer them in a timely manner!
+
+
+
+
 Select your answer.
+
+
+
 Look for the color "Green" to pop up for the right answer.
+
+
+
+
+
+
 Look for the color "Red" to pop up for the wrong answer.
 
 
@@ -37,8 +59,26 @@ Look for the color "Red" to pop up for the wrong answer.
 
 
 Most the questions are from popular movies.
+
+
+
+
+
 Have a Positive Attitude.
+
+
+
+
 Be Open-Minded.
+
+
+
+
+
+
+
+
+
 HAVE FUN!
 
 
