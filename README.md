@@ -31,45 +31,45 @@ This part is simple!
 
 
 
-Read the questions given to you.
+1. Read the questions given to you.
 
 
 
-Answer them in a timely manner!
-
-
-
-
-Select your answer.
-
-
-
-Look for the color "Green" to pop up for the right answer.
+2. Answer them in a timely manner!
 
 
 
 
+3. Select your answer.
 
 
-Look for the color "Red" to pop up for the wrong answer.
+
+4. Look for the color "Green" to pop up for the right answer.
+
+
+
+
+
+
+5. Look for the color "Red" to pop up for the wrong answer.
 
 
 
 ***Tips***
 
 
-Most the questions are from popular movies.
+1. Most the questions are from popular movies.
 
 
 
 
 
-Have a Positive Attitude.
+2. Have a Positive Attitude.
 
 
 
 
-Be Open-Minded.
+3. Be Open-Minded.
 
 
 
@@ -79,7 +79,7 @@ Be Open-Minded.
 
 
 
-HAVE FUN!
+4. HAVE FUN!
 
 
 
