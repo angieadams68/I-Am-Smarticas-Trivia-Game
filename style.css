@@ -1,6 +1,8 @@
 body {
 padding: 0;
 margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
 display: flex;
 width: 100vw;
 height: 100vh;
@@ -8,60 +10,9 @@ justify-content: center;
 align-items: center;
 }
 
-.container{
-width: 300px;
-max-width: 80%;
-background-color: rgb(12, 213, 200);
-border-radius: 5px;
-padding: 10px;
-box-shadow: 0 0 10px 2px;
-}
+#showcase{
+    background-image: url('https://64.media.tumblr.com/7f6e61a48bc5902e3611a79628173e83/tumblr_n3lsc1I7oh1rwgdwdo1_500.jpg');
+height: 100vh;
+background-size: cover;
 
-
-.btn-grid {
-
-display: grid;
-grid-template-columns: repeat(2, auto);
-gap: 10px;
-margin: 20px 0;
-}
-
-
-.btn {
-border-radius: 5px;
-padding: 5px 10px;
-color: rgb(12, 1, 1);
-border: 4px solid; 
-font-weight: bold;
-font-size: 15px;
-border-color: rgb(208, 135, 163);
-}
-
-.btn:hover {
-border-color: black;
-}
-
-.btn.correct{
-    color: green;
-}
-
-.btn.wrong {
-    color: red;
-}
-
-.start-btn, .next-btn {
-
-    font-size: 15px;
-font-weight: bold;
-padding: 10px 15px;
-}
-
-.controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hide {
-    display: none;
 }
