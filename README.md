@@ -4,7 +4,7 @@
 
 #  By: Angie Aqsa Saleheen
 
-[What exactly is Trivia ](https://www.collinsdictionary.com/us/dictionary/english/trivia-game)
+[What Exactly Is Trivia ](https://www.collinsdictionary.com/us/dictionary/english/trivia-game)
 
 *** 
 
