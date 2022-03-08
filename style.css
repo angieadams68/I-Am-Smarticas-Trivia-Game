@@ -1,18 +1,46 @@
+
+
+
+
 body {
-padding: 0;
 margin: 0;
-font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
+padding: 200px;
+font-weight: bolder;
 display: flex;
-width: 100vw;
-height: 100vh;
 justify-content: center;
-align-items: center;
 }
 
-#showcase{
-    background-image: url('https://64.media.tumblr.com/7f6e61a48bc5902e3611a79628173e83/tumblr_n3lsc1I7oh1rwgdwdo1_500.jpg');
-height: 100vh;
-background-size: cover;
 
+
+h1{
+    color: yellow;
+    padding: 30px;
+    text-align: center;
+}
+
+
+p{
+    font-family: fantasy;
+    color: rgb(240, 51, 51);
+    text-align: center;
+}
+
+html { 
+    background: url(https://t3.ftcdn.net/jpg/02/45/27/34/360_F_245273409_YN37kDrZnrJuWngeNxyMv40clm3GwbmL.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color:rgb(37, 37, 255); 
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: justify;
 }
