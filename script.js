@@ -3,7 +3,8 @@ const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
-
+const endButton = document.getElementById('end-btn')
+let hardMode = false 
 
 let shuffledQuestions, currentQuestionIndex
 
@@ -48,7 +49,9 @@ function resetState() {
         answerButtonsElement.removeChild
         (answerButtonsElement.firstChild)
     }
+
 }
+
 
 function selectAnswer (e) {
 const selectedButton = e.target
@@ -60,6 +63,7 @@ Array.from(answerButtonsElement.children).forEach(button  => {
 if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
 } else {
+    hardMode = true
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
 }
@@ -91,7 +95,7 @@ const questions = [
         ]
     },
 {
-    question: 'What was the Name of the Lion in Narnia?',
+    question: 'MOVIE TRIVIA: What was the Name of the Lion in Narnia?',
     answers: [
         { text: 'Alan', correct: false},
         { text: 'Allen', correct: false},
@@ -100,7 +104,7 @@ const questions = [
     ]
 },
 {
-    question: 'What was the name of Rons letter he had Received from his Mother?',
+    question: 'MOVIE TRIVIA: What was the name of Rons letter he had Received from his Mother?',
     answers: [
         { text: 'Owl letter', correct: false},
         { text: 'Hewling', correct: false},
@@ -108,4 +112,104 @@ const questions = [
         { text: 'Howling', correct: false}
     ]
 },
+{
+    question: 'MOVIE TRIVIA: Where was Bilbo Baggins from?',
+    answers: [
+        { text: 'Shenire', correct: false},
+        { text: 'Shi`ire', correct: false},
+        { text: 'Shire', correct: true},
+        { text: 'Sheire', correct: false}
+    ]
+},
+{
+    question: 'MOVIE TRIVIA: Where is Captain America from?',
+    answers: [
+        { text: 'Bronx', correct: false},
+        { text: 'Bruno', correct: false},
+        { text: 'Brooklyn', correct: true},
+        { text: 'Bremen', correct: false}
+    ]
+},
+{
+    question: 'MOVIE TRIVIA: Who is Bilbo Baggin`s Nephew?',
+    answers: [
+        { text: 'Frogo', correct: false},
+        { text: 'Frodo', correct: true},
+        { text: 'Forge', correct: false},
+        { text: 'Fordo', correct: false}
+    ]
+},
+{ 
+    question: 'MOVIE TRIVIA: Where did the Clone Wars begin?',
+    answers: [
+        { text: 'Tatoonie', correct: false},
+        { text: 'Geonosis', correct: true},
+        { text: 'Naboo', correct: false},
+        { text: 'Coruscant', correct: false}
+    ]
+},
+{
+    question: 'TV TRIVIA: What paint color is Monica`s door in Friends?',
+    answers: [
+        { text: 'Red', correct: false},
+        { text: 'Purple', correct: true},
+        { text: 'Grey', correct: false},
+        { text: 'Yellow', correct: false}
+    ]
+},
+{
+    question: 'TV TRIVIA: Name of the kid next door in Family Matters?',
+    answers: [
+        { text: 'Steve Furkel', correct: false},
+        { text: 'Steve Jurkel', correct: false},
+        { text: 'Steve Murkel', correct: false},
+        { text: 'Steve Urkel', correct: true}
+    ]
+},
+{
+    question: 'TV TRIVIA: Who did Barney fall in love with in How I Met Your Mother?',
+    answers: [
+        { text: 'Lilly', correct: false},
+        { text: 'Nora', correct: false},
+        { text: 'Shannon', correct: false},
+        { text: 'Robin', correct: true}
+    ]
+},
+{
+    question: 'TV TRIVIA: What was 11`s favorite snack in Stranger Things?',
+    answers: [
+        { text: 'Pancakes', correct: false},
+        { text: 'Ego`s', correct: true},
+        { text: 'Waffle Sticks', correct: false},
+        { text: 'Egg`s', correct: false}
+    ]
+    
+},
+{
+    question: 'TV TRIVIA: What was the Paper Company called in The Office?',
+    answers: [
+        { text: 'Dinder Mufflin', correct: false},
+        { text: 'Dunder Mifflin', correct: true},
+        { text: 'Dunder Mufflin', correct: false},
+        { text: 'Dinder Mifflin', correct: false}
+    ]
+},
+{
+    question: 'TV TRIVIA: What is Dexter Morgan`s day job? ',
+    answers: [
+    { text: 'Blood Spatter Analyst', correct: false},
+        { text: 'Forensic Specialist', correct: true},
+        { text: '', correct: false},
+        { text: '', correct: false}
+    ]
+},
+{
+    question: 'TV TRIVIA: In Rick and Morty, What is the number of Rick`s Universe? ',
+    answers: [
+    { text: 'Droopyville', correct: false},
+        { text: 'C-137', correct: true},
+        { text: 'B-184', correct: false},
+        { text: 'Planet Wasted', correct: false}
+    ]
+}
 ]
