@@ -4,7 +4,6 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 const endButton = document.getElementById('end-btn')
-let hardMode = false 
 
 let shuffledQuestions, currentQuestionIndex
 
@@ -63,7 +62,6 @@ Array.from(answerButtonsElement.children).forEach(button  => {
 if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
 } else {
-    hardMode = true
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
 }
@@ -204,12 +202,95 @@ const questions = [
     ]
 },
 {
-    question: 'TV TRIVIA: In Rick and Morty, What is the number of Rick`s Universe? ',
+    question: 'TV TRIVIA: In Rick and Morty, What is the number of Rick`s Universe?',
     answers: [
     { text: 'Droopyville', correct: false},
         { text: 'C-137', correct: true},
         { text: 'B-184', correct: false},
         { text: 'Planet Wasted', correct: false}
     ]
-}
+},
+
+ {
+     question: 'HARD: What is the color of C-3PO`s arm in Star Wars: The Force Awakens?',
+     answers: [
+        { text: 'Black', correct: false},
+        { text: 'Red', correct: true},
+        { text: 'Blue', correct: false},
+        { text: 'Silver', correct: false}
+     ]
+ },
+ {
+     question: 'HARD: During the first five season of South Park, Which character died in nearly every episode?',
+     answers: [
+        { text: 'Kyle', correct: false},
+        { text: 'Kenny', correct: true},
+        { text: 'Cartman', correct: false},
+        { text: 'Stan', correct: false}
+     ]
+ },
+ {
+     question: 'HARD: Who delivers the final blow that destroys the second Death Star?',
+     answers: [
+        { text: 'Han Solo with an X-Wing', correct: false},
+        { text: 'Luke Skywalker with a Speeder', correct: false},
+        { text: 'Jar Jar Binks with a Y-Wing', correct: false},
+        { text: 'Lando Calrissian with the Millennium Falcon', correct: true}
+     ]
+ },
+ {
+     question: 'HARD What is the first spell that was casted by Hermione?',
+     answers: [
+        { text: 'Lemmius Fixus', correct: false},
+        { text: 'Oculus Reparo', correct: true},
+        { text: 'Wingardium Leviosa', correct: false},
+        { text: 'Salvio Hexia', correct: false}
+     ]
+ },
+ {
+     question: 'HARD: What animal does Professor McGonagall transform into in the movie Harry Potter and The Sorcerer`s Stone?',
+     answers: [
+        { text: 'Bird', correct: false},
+        { text: 'Cat', correct: true},
+        { text: 'Owl', correct: false},
+        { text: 'Lizard', correct: false}
+     ]
+ },
+ {
+     question: 'HARD: What was the framed picture behind the Simpson`s couch?',
+     answers: [
+        { text: 'Family photo', correct: false},
+        { text: 'Sailboat', correct: true},
+        { text: 'Mountains', correct: false},
+        { text: 'Ocean', correct: false}
+     ]
+ },
+ {
+     question: 'HARD: Who makes a deal with Agent Smith to sell out Morpheus in The Matrix?',
+     answers: [
+        { text: 'Agent Brown', correct: false},
+        { text: 'Cypher', correct: true},
+        { text: 'Mouse', correct: false},
+        { text: 'The Oracle', correct: false}
+     ]
+ },
+ {
+     question: 'HARD: In Star Trek, What is the name of the ship under Benjamin Sisko`s command?',
+     answers: [
+        { text: 'Enterprise', correct: false},
+        { text: 'Defiant', correct: true},
+        { text: 'Voyager', correct: false},
+        { text: 'Dominion', correct: false}
+     ]
+ },
+ {
+     question: 'HARD: In which US city do the Avengers battle the Chitauri?',
+     answers: [
+        { text: 'LA', correct: false},
+        { text: 'Chicago', correct: false},
+        { text: 'NYC', correct: true},
+        { text: 'DC', correct: false}
+     ]
+ }
 ]
+

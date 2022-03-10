@@ -12,9 +12,36 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: url(https://t3.ftcdn.net/jpg/02/45/27/34/360_F_245273409_YN37kDrZnrJuWngeNxyMv40clm3GwbmL.jpg) no-repeat center center fixed; 
+}
+
+.game {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(https://media.istockphoto.com/vectors/vector-realistic-isolated-neon-sign-of-quiz-frame-for-template-and-vector-id1137974473?k=20&m=1137974473&s=170667a&w=0&h=xSwXYPNZXUumd_pTHsfFgsVT041zng2QNqFYiXneJRc=) no-repeat center center fixed; 
     background-size: cover;
 }
+
+.home {
+    
+
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background: url(https://t3.ftcdn.net/jpg/02/45/27/34/360_F_245273409_YN37kDrZnrJuWngeNxyMv40clm3GwbmL.jpg) no-repeat center center fixed; 
+        background-size: cover;
+    
+}
+
+
 
 body.correct {
     --hue: var(--hue-correct);
