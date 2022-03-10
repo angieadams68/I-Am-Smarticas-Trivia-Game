@@ -84,3 +84,13 @@ color:rgb(62, 242, 255)
     display: none;
 }
 
+h1 {
+    color: rgb(255, 255, 255);
+height: 30px;
+width: 60px;
+position: absolute;
+bottom: 20;
+padding: 20%;
+right: 0;
+
+}

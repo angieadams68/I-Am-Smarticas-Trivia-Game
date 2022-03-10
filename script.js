@@ -4,6 +4,11 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
+const startingMinutes = 1;
+let time = startingMinutes * 1;
+
+const countdownEl = document.getElementById
+
 let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
@@ -105,5 +110,5 @@ const questions = [
         { text: 'Howler', correct: true},
         { text: 'Howling', correct: false}
     ]
-}
+},
 ]
