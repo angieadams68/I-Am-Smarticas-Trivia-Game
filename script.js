@@ -28,6 +28,7 @@ function setNextQuestions() {
 }
 
 function showQuestion(question) {
+    console.log('showQuestion')
   questionElement.innerText = question.question
   question.answers.forEach(answer => {
       const button = document.createElement('button')
@@ -52,7 +53,7 @@ function resetState() {
 function selectAnswer (e) {
 const selectedButton = e.target
 const correct = selectedButton.dataset.correct
-setStatusClass(document.body, correct)
+setStatusClass(selectedButton, correct)
 Array.from(answerButtonsElement.children).forEach(button  => {
     setStatusClass(button, button.dataset.correct)
 })
@@ -68,9 +69,9 @@ if (shuffledQuestions.length > currentQuestionIndex + 1) {
 function setStatusClass(element, correct) {
     clearStatusClass(element)
     if (correct) {
-        element.classList.add('correct')
+        element.classList.add('correct-answer')
     } else {
-        element.classList.add('wrong')
+        element.classList.add('wrong-answer')
     }
 }
 
@@ -82,7 +83,7 @@ function clearStatusClass(element) {
 const questions = [
     {
         question: 'Who played Harry Potter?',
-        answer: [
+        answers: [
             { text: 'Daniel Faraday', correct: false},
             { text: 'Daniel Craig', correct: false},
             { text: 'Daniel Radcliffe', correct: true},
@@ -91,7 +92,7 @@ const questions = [
     },
 {
     question: 'What was the Name of the Lion in Narnia?',
-    answer: [
+    answers: [
         { text: 'Alan', correct: false},
         { text: 'Allen', correct: false},
         { text: 'Alorn', correct: false},
@@ -100,7 +101,7 @@ const questions = [
 },
 {
     question: 'What was the name of Rons letter he had Received from his Mother?',
-    answer: [
+    answers: [
         { text: 'Owl letter', correct: false},
         { text: 'Hewling', correct: false},
         { text: 'Howler', correct: true},

@@ -3,14 +3,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-:root {
-    background: url(https://t3.ftcdn.net/jpg/02/45/27/34/360_F_245273409_YN37kDrZnrJuWngeNxyMv40clm3GwbmL.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 body {
 
     padding: 0;
@@ -20,6 +12,8 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background: url(https://t3.ftcdn.net/jpg/02/45/27/34/360_F_245273409_YN37kDrZnrJuWngeNxyMv40clm3GwbmL.jpg) no-repeat center center fixed; 
+    background-size: cover;
 }
 
 body.correct {
@@ -29,15 +23,15 @@ body.wrong {
     --hue: var(--hue-wrong);
 }
 
-.container {
-    width: 300px;
-    max-width: 80%;
-border-radius: 5px;
-padding: 200px;
-margin: 70%;
-box-shadow: 0 0 10px 10px;
-color:rgb(62, 242, 255)
-}
+ .container {
+ width: 60vh;
+ height: 30vh;
+ border-radius: 5px;
+ padding: 20px;
+ margin-left: 10%;
+ box-shadow: 0 0 10px 10px;
+ color:rgb(62, 242, 255)
+ }
 
 .btn-grid {
     display: grid;
@@ -47,10 +41,9 @@ color:rgb(62, 242, 255)
 }
 
 .btn {
-    --hue: var(--hue-neutral);
-    border: 1px solid hsl(var(--hue), 100%, 30%);
-    background-color: hsl(var(--hue), 100%, 50%);
-    border-radius: 5px;
+    border: 1px solid rgb(255, 63, 229);
+    background-color: white;
+    border-radius: 2px;
     padding: 5px 10px;
     color: rgb(10, 9, 9);
     outline: none;
@@ -90,25 +83,35 @@ right: 0;
 
 h1 {
     color: yellow;
+
     font-family: cursive;
-    font-size: 90px ;
-    padding: 40px;
-    margin: 40px;
-    text-align: left;
+    font-size: 60px;
+    padding: 20px;
+    margin-left: 30%;
+   
 }
 
 p {
     color: red;
     font-family: fantasy;
     font-size: 30px;
-    padding-left: 3px;
+    padding: 20px;
+    margin-left: 25%;
 }
 
 a {
-    color: rgb(63, 156, 255);
-height: 30px;
-width: 60px;
-padding-bottom: 5px;
-bottom: 0;
-right: 0;
+   color: rgb(63, 156, 255);
+   font-size: 20px;
+   margin-left: 90%;
+   padding: 10px;
+  }
+
+
+
+.correct-answer {
+    background-color: green;
+}
+
+.wrong-answer {
+    background-color: red;
 }
