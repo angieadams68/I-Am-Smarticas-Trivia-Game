@@ -4,13 +4,15 @@
 }
 
 :root {
-    --hue-neutral: 200;
-    --hue-wrong: 0;
-    --hue-correct: 145;
+    background: url(https://t3.ftcdn.net/jpg/02/45/27/34/360_F_245273409_YN37kDrZnrJuWngeNxyMv40clm3GwbmL.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 body {
-    --hue: var(--hue-neutral);
+
     padding: 0;
     margin: 0;
     display: flex;
@@ -18,7 +20,6 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
 }
 
 body.correct {
@@ -31,10 +32,11 @@ body.wrong {
 .container {
     width: 800px;
     max-width: 80%;
-    background-color: rgb(255, 251, 251);
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow:  0 0 10px 2px;
+    justify-content:left;
+border-radius: 5px;
+padding: 200px;
+box-shadow: 0 0 10px 2px;
+color:rgb(62, 242, 255)
 }
 
 .btn-grid {
@@ -81,3 +83,4 @@ body.wrong {
 .hide {
     display: none;
 }
+
