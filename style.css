@@ -1,6 +1,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: chalkduster, fantasy;
 }
 
 body {
@@ -55,7 +55,7 @@ body.wrong {
  height: 30vh;
  border-radius: 5px;
  padding: 20px;
- margin-left: 10%;
+ margin-left: 1%;
  box-shadow: 0 0 10px 10px;
  color:rgb(62, 242, 255)
  }
@@ -68,16 +68,20 @@ body.wrong {
 }
 
 .btn {
-    border: 1px solid rgb(255, 63, 229);
+    border: 1px solid rgb(255, 86, 230);
     background-color: white;
-    border-radius: 2px;
-    padding: 5px 10px;
+    border-radius: 5px;
+    padding: 8x;
+    margin-right: 35%;
+    font-family: fantasy;
+    font-size: 30px;
+    margin-top: 5%;
     color: rgb(10, 9, 9);
-    outline: none;
 }
 
 .btn:hover {
-    border-color: rgb(223, 119, 178);
+    border-color: rgb(183, 0, 255);
+    border-radius: 20px;
 }
 
 .btn.correct {
@@ -103,9 +107,8 @@ h2 {
 height: 30px;
 width: 60px;
 position: absolute;
-bottom: 20;
-padding: 20%;
-right: 0;
+padding-left: 45%;
+
 }
 
 h1 {
@@ -121,7 +124,7 @@ h1 {
 p {
     color: red;
     font-family: fantasy;
-    font-size: 30px;
+    font-size: 28px;
     padding: 20px;
     margin-left: 25%;
 }
@@ -141,4 +144,18 @@ a {
 
 .wrong-answer {
     background-color: red;
+}
+
+#message {
+    color: white;
+}
+
+
+#question-container {
+ 
+    color: rgb(96, 255, 48);
+    font-size: 40px;
+    margin-left: 11%;
+    margin: 2%;
+
 }
