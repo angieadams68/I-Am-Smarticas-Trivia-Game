@@ -4,13 +4,9 @@
 
 #  By: Angie Aqsa Saleheen
 
-[What Exactly Is Trivia ](https://www.collinsdictionary.com/us/dictionary/english/trivia-game) 
+[WPlay Game](http://127.0.0.1:5500/game_index.html) 
 
 ***
-
-
-Play Game (http://127.0.0.1:5500/game_index.html)
-
 
 *** 
 
@@ -29,8 +25,18 @@ I really enjoy watching movies and TV shows, so I put together a game for other 
 
 
 ***Technology Used***
+
 . HTML
+
+
+
+
 . CSS
+
+
+
+
+
 . JavaScript
 
 
