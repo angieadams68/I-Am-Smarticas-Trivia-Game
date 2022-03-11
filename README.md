@@ -2,9 +2,9 @@
 
 # Date: 3/11/2022
 
-#  By: Angie Aqsa Saleheen
+#  By: Angie Adams
 
-[WPlay Game](http://127.0.0.1:5500/game_index.html) 
+[Play Game](http://127.0.0.1:5500/game_index.html) 
 
 ***
 
