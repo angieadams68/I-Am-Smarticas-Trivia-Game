@@ -10,7 +10,10 @@
 
 *** 
 
-Trello Board (https://trello.com/b/kW1z5Mk0/trivia-game-p-1)
+
+
+[Trello Board](https://trello.com/b/kW1z5Mk0/trivia-game-p-1) (See how we put this together!)
+
 
 ***
 
