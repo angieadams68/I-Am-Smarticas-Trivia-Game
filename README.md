@@ -4,8 +4,13 @@
 
 #  By: Angie Aqsa Saleheen
 
-[What Exactly Is Trivia ](https://www.collinsdictionary.com/us/dictionary/english/trivia-game) Play Game (http://127.0.0.1:5500/game_index.html)
+[What Exactly Is Trivia ](https://www.collinsdictionary.com/us/dictionary/english/trivia-game) 
+
 ***
+
+
+Play Game (http://127.0.0.1:5500/game_index.html)
+
 
 *** 
 
@@ -20,6 +25,13 @@ Welcome to a fun, easy yet competitive game of I am Smarticus! This is a Trivia 
 I really enjoy watching movies and TV shows, so I put together a game for other people like myself to come together and play this game! Since this game is mainly focused on movies and TV shows, I have given a wide variety of questions. Not to worry! Music, Sports and World knowledge is coming soon! Good luck and have fun!
 
 
+
+
+
+***Technology Used***
+. HTML
+. CSS
+. JavaScript
 
 
 
