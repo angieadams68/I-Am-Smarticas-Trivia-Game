@@ -20,7 +20,7 @@
 ***Description***
 
 
-Welcome to a fun, easy yet competitive game of I am Smarticus! This is a Trivia game built by Software Engineer Angie Saleheen. Hey that's me!
+Welcome to a family fun, easy yet competitive game of I am Smarticus! This is a Trivia game built by Software Engineer Angie Saleheen. Hey that's me!
 I really enjoy watching movies and TV shows, so I put together a game for other people like myself to come together and play this game! Since this game is mainly focused on movies and TV shows, I have given a wide variety of questions. Not to worry! Music, Sports and World knowledge is coming soon! Good luck and have fun!
 
 
