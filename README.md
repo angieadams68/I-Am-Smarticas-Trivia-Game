@@ -1,6 +1,6 @@
 # I AM SMARTICAS
 
-# Date: 3/7/2022
+# Date: 3/11/2022
 
 #  By: Angie Aqsa Saleheen
 
@@ -84,7 +84,7 @@ This part is simple!
 
 
 
-![Image](https://princewilliamlivingweb.s3-accelerate.amazonaws.com/2022/01/Trivia-Day-.gif)
+![Image](https://images.squarespace-cdn.com/content/v1/54ee3d89e4b0ae0904d741db/1577626263500-W1BU4O5NRIJ1UIQSBW7F/Trivia+Sign.jpg?format=1500w)
 
 ***
 
