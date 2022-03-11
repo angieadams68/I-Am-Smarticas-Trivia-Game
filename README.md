@@ -106,6 +106,41 @@ This part is simple!
 
 
 
+
+
+
+***Coming Soon***
+
+1. Answer board
+
+
+
+
+
+
+
+2. Right or Wrong Sound
+
+
+
+
+
+
+
+3. Timer
+
+
+
+
+
+4. View on any screen
+
+
+
+
+
+
+
 ![Image](https://musevineyards.com/wp-content/uploads/2020/03/shutterstock_1281339124.0.jpg)
 
 ***
