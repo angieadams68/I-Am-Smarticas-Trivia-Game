@@ -5,6 +5,7 @@
 #  By: Angie Aqsa Saleheen
 
 [What Exactly Is Trivia ](https://www.collinsdictionary.com/us/dictionary/english/trivia-game) [Play Game] (http://127.0.0.1:5500/game_index.html)
+***
 
 *** 
 
