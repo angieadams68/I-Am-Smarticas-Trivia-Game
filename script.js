@@ -24,15 +24,15 @@ function startGame() {
 }
 
 function setNextQuestions() {
-    resetState()
-  showQuestion(shuffledQuestions[currentQuestionIndex])
+         resetState()
+         showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
 function showQuestion(question) {
     console.log('showQuestion')
-  questionElement.innerText = question.question
-  question.answers.forEach(answer => {
-      const button = document.createElement('button')
+    questionElement.innerText = question.question
+    question.answers.forEach(answer => {
+     const button = document.createElement('button')
       button.innerText = answer.text
       button.classList.add('btn')
       if (answer.correct) {
@@ -44,8 +44,8 @@ function showQuestion(question) {
 }
 
 function resetState() {
-    nextButton.classList.add('hide')
-    while (answerButtonsElement.firstChild) {
+ nextButton.classList.add('hide')
+  while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild
         (answerButtonsElement.firstChild)
     }
@@ -54,25 +54,24 @@ function resetState() {
 
 
 function selectAnswer (e) {
-const selectedButton = e.target
-const correct = selectedButton.dataset.correct
-setStatusClass(selectedButton, correct)
-Array.from(answerButtonsElement.children).forEach(button  => {
-    setStatusClass(button, button.dataset.correct)
+ const selectedButton = e.target
+ const correct = selectedButton.dataset.correct
+   setStatusClass(selectedButton, correct)
+    Array.from(answerButtonsElement.children).forEach(button  => {
+     setStatusClass(button, button.dataset.correct)
 })
 if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
 } else {
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
-    // message.innerText = 'Game Over'
 }
 
 }
 
 function setStatusClass(element, correct) {
     clearStatusClass(element)
-    if (correct) {
+     if (correct) {
         element.classList.add('correct-answer')
     } else {
         element.classList.add('wrong-answer')
@@ -292,6 +291,16 @@ const questions = [
          { text: 'Chicago', correct: false},
          { text: 'NYC', correct: true},
          { text: 'DC', correct: false}
+      ]
+  },
+  {
+      question: 'Who played Ginny Weasley?',
+      answers: [
+          {text: 'Brianna Left', correct: false},
+          {text: 'Breanne West', correct: false},
+          {text: 'Bonnie Wright', correct: true},
+          {text: 'Bree Eastwood', correct: false}
+    
       ]
   }
 ]
